@@ -1,0 +1,13 @@
+def dice_roller(x,y):
+    import random as yy
+    
+    listt = []
+    
+    yy.uniform(1,6)
+    
+    for xyz in range(x):
+        listt.append(int(yy.uniform(1,y)))
+         
+    return listt
+    
+    
